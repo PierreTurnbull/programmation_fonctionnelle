@@ -11,11 +11,6 @@
   </style>
 </head>
 <body>
-  <header class="book-banner-fixed" style="color: lightcyan">
-    🔥 Obtenez monebook de 1250 pages sur le <a class="gumroad-button" href="https://gum.co/FKbd" target="_blank" rel="noopener"
-      style="color: white; text-decoration: underline">Développement Web modern</a> 🔥
-  </header>
-
   <div id="wrapper">
     <div id="container">
 
@@ -284,17 +279,20 @@ a<span class="token punctuation">[</span><span class="token number">0</span><spa
 
             <h2 id="composition">Enchaînement de fonctions</h2>
 
-            <p>L'enchaînement de fonctions est un autre sujet essentiel de la programmation fonctionnelle.</p>
-
-            <p><strong>L'enchaînement de fonctions consiste à utiliser des fonctions d'ordre supérieur les unes à la suite des autres, en faisant utiliser le résultat de l'une par la suivante.</strong></p>
+            <p>L'enchaînement de fonctions consiste à utiliser des fonctions d'ordre supérieur les unes à la suite des autres, 
+              en faisant utiliser le résultat de l'une par la suivante.</p>
 
             <h3 id="composing-in-plain-js">Enchaîner des fonctions en JavaScript pur</h3>
+
+            <h4>Chaînage</h4>
 
             <p>Si on connaît le type du résultat d'une fonction, on peut utiliser une fonction propre au type retourné:</p>
 
             <pre class=" language-js"><code class=" language-js">obj<span class="token punctuation">.</span><span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
    <span class="token punctuation">.</span><span class="token function">doSomethingElse</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre>
+
+            <h4>Composition</h4>
 
             <p>On peut aussi passer le résultat d'une fonction comme argument à une autre fonction:</p>
 
